@@ -113,6 +113,11 @@ exports.config = {
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
     connectionRetryTimeout: 120000,
+    // Add configuration of wdi5.
+    wdi5: {
+        skipInjectUI5OnStart: true,
+        url: "/nsHTML5Module/index.html", // [mandatory] {string} name of your bootstrap html file. If your server autoredirects to a 'domain:port/'-like root url, use empty string ''
+    },
     //
     // Default request retries count
     connectionRetryCount: 3,
