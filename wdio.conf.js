@@ -121,11 +121,6 @@ exports.config = {
     //
     // Default request retries count
     connectionRetryCount: 3,
-    // Add minimum configuration of wdi5.
-    wdi5: {
-       url: 'index.html',
-       skipInjectUI5OnStart: true // [optional] true when UI5 is not on the start page, you need to later call <wdioUI5service>.injectUI5(); manually
-    },
     //
     // Test runner services
     // Services take over a specific job you don't want to take care of. They enhance
